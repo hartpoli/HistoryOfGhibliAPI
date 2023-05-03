@@ -32,18 +32,21 @@ Untuk menjalankan API ini, Anda memerlukan beberapa software yang harus diinstal
 ### Endpoint
 Daftar endpoint yang tersedia pada API ini adalah:
 
--GET /api/cariquery
--GET /api/demort
--GET /api/filterfeedmanga
--GET /api/filtertag
--GET /api/mangaratingstats
--GET /api/read
--GET /api/tambahfeedmanga
--GET /api/updatemangact
--POST /api/buatsession
--POST /api/refreshsession
--POST /api/tm-daftarcustom
--POST /api/tm-daftarmengikuti
+## GET
+1. GET /api/cariquery
+2. GET /api/demort
+3. GET /api/filterfeedmanga
+4. GET /api/filtertag
+5. GET /api/mangaratingstats
+6. GET /api/read
+7. GET /api/tambahfeedmanga
+8. GET /api/updatemangact
+
+## POST
+1. POST /api/buatsession
+2. POST /api/refreshsession
+3. POST /api/tm-daftarcustom
+4. POST /api/tm-daftarmengikuti
 
 ## Folder Struktur
 Berikut adalah struktur folder untuk API ini:
